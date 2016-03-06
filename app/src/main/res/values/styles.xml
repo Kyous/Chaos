@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+    </style>
+
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="lbl_more1" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:paddingBottom">@dimen/pad_10dp</item>
+        <item name="android:paddingLeft">@dimen/pad_15dp</item>
+        <item name="android:paddingTop">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/gray_light</item>
+        <item name="android:textSize">@dimen/txt_12sp</item>
+    </style>
+    <style name="lbl_more2" parent="@style/lbl_more1">
+        <item name="android:textColor">@color/main_color_gray_dk</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+    </style>
+    
+    <style name="lbl_gray14_bold" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/main_color_gray_dk</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="lbl_gray14_orange" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/main_color_orange</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="lbl_see_all" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+        <item name="android:background">@color/main_color_orange_lt</item>
+        <item name="android:paddingLeft">@dimen/pad_20dp</item>
+        <item name="android:paddingRight">@dimen/pad_20dp</item>
+        <item name="android:paddingTop">@dimen/pad_3dp</item>
+        <item name="android:paddingBottom">@dimen/pad_3dp</item>
+    </style>
+   
+</resources>

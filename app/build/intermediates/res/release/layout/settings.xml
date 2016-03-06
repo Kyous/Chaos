@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/lbl_more1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:text="Notification" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray_light" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/lbl_more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="New Video Added to Category" />
+
+             <Switch
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/switch_bg"
+            android:thumb="@drawable/switch_thumb"
+            android:checked="true"
+            android:layout_marginRight="@dimen/pad_10dp" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray_light" />
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray_light" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/lbl_more1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:text="Video" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray_light" />
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/lbl_more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Preferred Video Quality" />
+
+             <TextView
+                android:id="@+id/textView5"
+                style="@style/lbl_more1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="480p" 
+                android:layout_marginRight="@dimen/pad_10dp"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray_light" />
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/lbl_more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clear Cache" />
+
+             <TextView
+                android:id="@+id/textView9"
+                style="@style/lbl_more1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear" 
+                android:layout_marginRight="@dimen/pad_10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+<!-- From: file:/Users/mac/AndroidStudioProjects/Chaos/app/src/main/res/layout/settings.xml -->

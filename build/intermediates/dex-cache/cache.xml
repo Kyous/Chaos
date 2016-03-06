@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/classes-2886cc063c31e83ff8f6436694c65b93a62c0e3b.jar" />
+    </item>
+    <item
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/httpclient-4.3.6-43da2516737817e77837cf9ed86eea6ee6fb4427.jar" />
+    </item>
+    <item
+        jar="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/internal_impl-22.2.0-7ee8ba0458b85bfe1928474e414075330b02ada7.jar" />
+    </item>
+    <item
+        jar="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/exploded-aar/com.vinaygaba/creditcardview/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91075c5950a4a22c5802a3c0b746d3b4515ba24b">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/classes-a9bbcbbd899417610bee630ec4bb9b6ca958b305.jar" />
+    </item>
+    <item
+        jar="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/classes-9c22d77284f0483a2a3e8749f58fbce6415fb39e.jar" />
+    </item>
+    <item
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/support-annotations-22.2.0-c2db20cabc414e87c12224bea7edbe19f7e0208e.jar" />
+    </item>
+    <item
+        jar="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/exploded-aar/Chaos/videoCaptureActivity/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b068d1a5fc328b22052fb2a50d60062ca1af3b2">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/classes-b13c00975659a3f73b435293e38f7d1c660879d4.jar" />
+    </item>
+    <item
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/mac/AndroidStudioProjects/Chaos/app/build/intermediates/pre-dexed/release/android-async-http-1.4.9-80f09e00a9a45a5d1924314f3eb4e82e50137397.jar" />
+    </item>
+
+</items>

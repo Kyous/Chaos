@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".CreditCardDetail">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_5dp"
+            android:layout_marginRight="@dimen/pad_5dp"
+            android:layout_marginTop="@dimen/pad_10dp" >
+
+            <TextView
+
+                style="@style/lbl_gray14_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Please provide your Bank Card Details" />
+
+
+        </LinearLayout>
+
+        <com.vinaygaba.creditcardview.CreditCardView
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="225dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cardbackground_world"
+
+            app:cardName=""
+            app:cardNameTextColor="#cccccc"
+            app:cardNumberFormat="all_digits"
+            app:cardNumberTextColor="#cccccc"
+            app:expiryDate=""
+            app:expiryDateTextColor="#cccccc"
+            app:hintTextColor="#ffffff"
+            app:isEditable="true"
+            app:isCardNumberEditable="true"
+            app:putChip="true"
+            app:type="auto"
+            app:validTillTextColor="#cccccc"
+            />
+
+
+        <Button
+            android:id="@+id/btnLinkToMainScreen"
+            style="@style/lbl_see_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_5dp"
+
+            android:text="Submit"/>
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/mac/AndroidStudioProjects/Chaos/app/src/main/res/layout/creditcard_detail.xml -->

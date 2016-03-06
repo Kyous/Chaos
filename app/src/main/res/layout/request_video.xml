@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+
+
+        <LinearLayout
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/pad_10dp" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_5dp"
+                android:layout_marginRight="@dimen/pad_5dp"
+                android:layout_marginTop="@dimen/pad_10dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/lbl_gray14_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Request a Video" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lla"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="1dp" >
+
+
+
+                        <EditText
+                            android:id="@+id/edDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+
+                            android:ems="10"
+                            android:hint="What would you like to do with it?"
+                            android:inputType="text"
+                            android:padding="10dp"
+                            android:textColorHint="#000"
+                            android:textSize="12dp" />
+
+                        <EditText
+                            android:id="@+id/edCaption"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+
+                            android:ems="10"
+                            android:hint="Specify the estimated broadcast time slots"
+                            android:inputType="text"
+                            android:padding="10dp"
+                            android:textColorHint="#000"
+                            android:textSize="12dp" />
+
+                        <EditText
+                            android:id="@+id/edPlatform"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+
+                            android:ems="10"
+                            android:hint="Specify the platforms for the allocated broadcast"
+                            android:inputType="text"
+                            android:padding="10dp"
+                            android:textColorHint="#000"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:padding="10dip"
+                        >
+
+                        <Button
+                            android:id="@+id/btnRequestVideo"
+                            style="@style/lbl_see_all"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dip"
+
+                            android:text="Submit your request"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

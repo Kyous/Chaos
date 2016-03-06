@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_large" 
+            android:scaleType="fitCenter"
+            />
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play80" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/trans_strip_long"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/pad_10dp"
+            android:text="04:35"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_12sp" />
+    </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:padding="@dimen/pad_5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/main_color_gray_dk"
+            android:textSize="@dimen/txt_14sp"
+            android:lines="1"
+            android:textStyle="bold"
+            android:ellipsize="end" />
+
+        <TextView
+             android:id="@+id/posted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posted by Willys Story"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/txt_12sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/main_color_gray_dk"
+            android:textSize="@dimen/txt_12sp" />
+         <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/main_color_gray_dk"
+            android:textSize="@dimen/txt_12sp" />
+
+        <Button
+            android:id="@+id/btnRequestVideo"
+            style="@style/lbl_see_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:text="Request This Video"
+             />
+    </LinearLayout>
+
+       <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_light1"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="More Like This"
+                android:paddingLeft="@dimen/pad_5dp" 
+                android:paddingTop="@dimen/pad_3dp"
+                android:paddingBottom="@dimen/pad_3dp"/>
+
+        <LinearLayout
+            android:id="@+id/vAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/mac/AndroidStudioProjects/Chaos/app/src/main/res/layout/video_detail.xml -->

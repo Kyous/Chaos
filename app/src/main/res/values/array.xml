@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="attach_options">
+        <item>@string/take_picture</item>
+        <item>@string/from_file</item>
+    </string-array>
+
+</resources>

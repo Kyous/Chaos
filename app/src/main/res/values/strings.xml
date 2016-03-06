@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">.Kyous</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="about_text">Live television refers to a television production broadcast in real-time, as events happen, in the present.\n\nFrom the early days of television until about 1958, live television was used heavily, except for filmed shows such as I Love Lucy and Gunsmoke. Although videotape was invented in 1957, its initial high cost meant it was only very gradually adopted. Some genres, such as soap operas, did not completely abandon live broadcasts until the mid-1970\'s.\n\nToday, television networks provide most live television mostly for morning shows with television programs such as: Today, Good Morning America &amp; CBS This Morning in the US (albeit only airing live in the Eastern Time Zone), and Daybreak, BBC Breakfast, This Morning, etc. in the UK. Broadcast television networks in the USA typically air their evening newscasts live in the Eastern &amp; Central time zones.\n\nMost local television station newscasts are broadcast live in the U.S. as they are an essential medium for providing up-to-the-minute weather forecasts and breaking news stories.\n\nWhen a major national breaking news event occurs, broadcast television networks will break into regularly scheduled programming and will televise a live &quot;special report&quot; in all USA time zones.\n\nIn general, a live television program was more common for broadcasting content produced specifically for commercial television in the early years of the medium, before technologies such as video tape appeared. As video tape recorders (VTR) became more prevalent, many entertainment programs were recorded and edited before broadcasting rather than being shown live. Entertainment events such as sports television and The Academy Awards continue to be generally broadcast live.</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="txt_watch">Watch</string>
+    <string name="take_picture">Take a Picture</string>
+    <string name="from_file">Capture Video</string>
+
+</resources>
